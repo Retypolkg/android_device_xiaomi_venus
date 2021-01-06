@@ -18,6 +18,7 @@ TARGET_KERNEL_CONFIG += vendor/venus_QGKI.config
 # Kernel modules
 BOOT_KERNEL_MODULES := \
     hwid.ko \
+    msm_drm.ko \
     xiaomi_touch.ko
 
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
