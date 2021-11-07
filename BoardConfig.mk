@@ -5,3 +5,6 @@
 #
 
 DEVICE_PATH := device/xiaomi/venus
+
+# Board
+TARGET_BOOTLOADER_BOARD_NAME := venus
