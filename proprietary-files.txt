@@ -104,6 +104,9 @@ vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libssrec.so
 
+# Audio Hardware - from venus-user 12 RKQ1.210503.001 21.8.27 release-keys
+vendor/lib/libvideoNS.so|d4ecaa05d043e4d125ec3b1d06901d8a48091e7c
+
 # Camera
 vendor/etc/camera/st_license.lic
 vendor/lib64/camera/com.qti.eeprom.venus_semco_s5khmx_m24c128x_wide_eeprom.so
