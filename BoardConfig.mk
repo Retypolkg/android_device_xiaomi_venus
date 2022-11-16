@@ -17,6 +17,7 @@ TARGET_KERNEL_CONFIG += vendor/venus_QGKI.config
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
+    fts_touch_spi.ko \
     hwid.ko \
     msm_drm.ko \
     xiaomi_touch.ko
