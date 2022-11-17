@@ -21,3 +21,8 @@ PRODUCT_MODEL := M2011K2G
 PRODUCT_NAME := lineage_venus
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="venus_global-user 12 SKQ1.211006.001 V13.0.5.0.SKBMIXM release-keys"
+
+BUILD_FINGERPRINT := Xiaomi/venus_global/venus:12/SKQ1.211006.001/V13.0.5.0.SKBMIXM:user/release-keys
