@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    libudfpshandler
+    libudfpshandler \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
